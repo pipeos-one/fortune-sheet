@@ -6,6 +6,7 @@ import cell from "./data/cell";
 import formula from "./data/formula";
 import empty from "./data/empty";
 import freeze from "./data/freeze";
+import evm from "./data/evm";
 
 export default {
   component: Workbook,
@@ -37,6 +38,9 @@ Formula.args = { data: [formula] };
 
 export const Empty = Template.bind({});
 Empty.args = { data: [empty] };
+
+export const Evm = Template.bind({});
+Evm.args = { data: [evm] };
 
 export const Tabs = Template.bind({});
 // @ts-ignore
