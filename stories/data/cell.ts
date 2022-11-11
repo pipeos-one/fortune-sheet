@@ -816,7 +816,7 @@ const data = {
         rangeType: "range",
         borderType: "border-none",
         style: "2",
-        color: "#000",
+        color: "#eeeeee",
         range: [
           {
             row: [3, 3],
@@ -1104,7 +1104,7 @@ const data = {
         rangeType: "range",
         borderType: "border-all",
         style: "3",
-        color: "#0000ff",
+        color: "#eeeeee0ff",
         range: [
           {
             row: [7, 8],
@@ -1116,7 +1116,7 @@ const data = {
         rangeType: "range",
         borderType: "border-inside",
         style: "3",
-        color: "#0000ff",
+        color: "#eeeeee0ff",
         range: [
           {
             row: [7, 8],
@@ -1128,7 +1128,7 @@ const data = {
         rangeType: "range",
         borderType: "border-inside",
         style: "9",
-        color: "#0000ff",
+        color: "#eeeeee0ff",
         range: [
           {
             row: [7, 8],
@@ -1140,7 +1140,7 @@ const data = {
         rangeType: "range",
         borderType: "border-inside",
         style: "2",
-        color: "#0000ff",
+        color: "#eeeeee0ff",
         range: [
           {
             row: [7, 8],
@@ -1152,7 +1152,7 @@ const data = {
         rangeType: "range",
         borderType: "border-inside",
         style: "9",
-        color: "#0000ff",
+        color: "#eeeeee0ff",
         range: [
           {
             row: [7, 8],
@@ -2146,7 +2146,7 @@ const data = {
             },
             {
               ff: "Arial",
-              fc: "#000000",
+              fc: "#eeeeee",
               fs: 12,
               cl: 0,
               un: 0,
@@ -2156,7 +2156,7 @@ const data = {
             },
             {
               ff: "Arial",
-              fc: "#000000",
+              fc: "#eeeeee",
               fs: 16,
               cl: 1,
               un: 0,
@@ -2166,7 +2166,7 @@ const data = {
             },
             {
               ff: "Arial",
-              fc: "#000000",
+              fc: "#eeeeee",
               fs: 12,
               cl: 0,
               un: 0,
@@ -2176,7 +2176,7 @@ const data = {
             },
             {
               ff: "Arial",
-              fc: "#000000",
+              fc: "#eeeeee",
               fs: 12,
               cl: 0,
               un: 0,

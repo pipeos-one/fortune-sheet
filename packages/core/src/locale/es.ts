@@ -10102,9 +10102,9 @@ export default {
         },
         {
           name: "Auxiliary line color",
-          example: "#000",
+          example: "#eeeeee",
           detail:
-            "Color setting of auxiliary line, same as line color configuration, default #000",
+            "Color setting of auxiliary line, same as line color configuration, default #eeeeee",
           require: "o",
           repeat: "n",
           type: "rangeall",
@@ -10191,9 +10191,9 @@ export default {
         },
         {
           name: "Auxiliary line color",
-          example: "#000",
+          example: "#eeeeee",
           detail:
-            "Color setting of auxiliary line, same as line color configuration, default #000",
+            "Color setting of auxiliary line, same as line color configuration, default #eeeeee",
           require: "o",
           repeat: "n",
           type: "rangeall",
@@ -10255,7 +10255,7 @@ export default {
           name: "Color palette",
           example: "#97b552",
           detail:
-            "The color palette can set the color of each bar individually, multiple settings can be set, and two formats are supported: 1 color such as #000, which means that the color of the first bar is black; 2 value range: color, such as -2:# 000 indicates that the bar with a value of -2 is black, 0:5:#000 indicates that the bar with a value of 0-5 is black, and the default is empty",
+            "The color palette can set the color of each bar individually, multiple settings can be set, and two formats are supported: 1 color such as #eeeeee, which means that the color of the first bar is black; 2 value range: color, such as -2:# 000 indicates that the bar with a value of -2 is black, 0:5:#eeeeee indicates that the bar with a value of 0-5 is black, and the default is empty",
           require: "o",
           repeat: "y",
           type: "rangeall",
@@ -10370,7 +10370,7 @@ export default {
           name: "Color palette",
           example: "#97b552",
           detail:
-            "The color palette can set the color of each bar individually, multiple settings can be set, and two formats are supported: 1 color such as #000, which means that the color of the first bar is black; 2 value range: color, such as -2:# 000 indicates that the bar with a value of -2 is black, 0:5:#000 indicates that the bar with a value of 0-5 is black, and the default is empty",
+            "The color palette can set the color of each bar individually, multiple settings can be set, and two formats are supported: 1 color such as #eeeeee, which means that the color of the first bar is black; 2 value range: color, such as -2:# 000 indicates that the bar with a value of -2 is black, 0:5:#eeeeee indicates that the bar with a value of 0-5 is black, and the default is empty",
           require: "o",
           repeat: "y",
           type: "rangeall",
@@ -10530,7 +10530,7 @@ export default {
           name: "Color palette",
           example: "#97b552",
           detail:
-            "The color palette can set the color of each bar individually, multiple settings can be set, and two formats are supported: 1 color such as #000, which means that the color of the first bar is black; 2 value range: color, such as -2:# 000 indicates that the bar with a value of -2 is black, 0:5:#000 indicates that the bar with a value of 0-5 is black, and the default is empty",
+            "The color palette can set the color of each bar individually, multiple settings can be set, and two formats are supported: 1 color such as #eeeeee, which means that the color of the first bar is black; 2 value range: color, such as -2:# 000 indicates that the bar with a value of -2 is black, 0:5:#eeeeee indicates that the bar with a value of 0-5 is black, and the default is empty",
           require: "o",
           repeat: "y",
           type: "rangeall",
@@ -10571,8 +10571,8 @@ export default {
         },
         {
           name: "Border color",
-          example: "#000",
-          detail: "The border color of the pie chart, the default is #000",
+          example: "#eeeeee",
+          detail: "The border color of the pie chart, the default is #eeeeee",
           require: "o",
           repeat: "n",
           type: "rangeall",
@@ -11961,7 +11961,7 @@ export default {
       "在表格中进行复制粘贴: Ctrl + C 进行复制, Ctrl + V 进行粘贴, Ctrl + X 进行剪切",
     pasteMustKeybordAlertHTMLTitle: "在表格中进行复制粘贴",
     pasteMustKeybordAlertHTML:
-      "<span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#666;'>Ctrl + C</span>&nbsp;&nbsp;进行复制<br/><span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#666;'>Ctrl + V</span>&nbsp;&nbsp;进行粘贴<br/><span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#666;'>Ctrl + X</span>&nbsp;&nbsp;进行剪切",
+      "<span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#999999;'>Ctrl + C</span>&nbsp;&nbsp;进行复制<br/><span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#999999;'>Ctrl + V</span>&nbsp;&nbsp;进行粘贴<br/><span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#999999;'>Ctrl + X</span>&nbsp;&nbsp;进行剪切",
   },
   pivotTable: {
     title: "Tabla Dinámica",

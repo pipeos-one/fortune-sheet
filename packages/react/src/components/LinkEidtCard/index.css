@@ -1,11 +1,11 @@
 .fortune-link-modify-modal {
   position: absolute;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #1a1a1b;
   z-index: 300;
   padding: 6px 20px 10px 20px;
   box-shadow: 0 2px 6px 0 rgb(0 0 0 / 16%);
-  border: solid 0.5px #e5e5e5;
+  border: solid 0.5px #1a1a1a;
   border-radius: 6px;
 }
 
@@ -30,7 +30,7 @@
   width: 1px;
   height: 16px;
   margin: 0px 6px ;
-  background-color: #e0e0e0;
+  background-color: #1f1f1f;
   flex-shrink: 0;
 }
 
@@ -47,7 +47,7 @@
   width: 380px;
   padding: 22px;
   user-select: auto;
-  background-color: #fff;
+  background-color: #1a1a1b;
 }
 
 .fortune-link-modify-line {
@@ -61,7 +61,7 @@
   width: 74px;
   line-height: 16px;
   padding: 7px 0;
-  color: #333333;
+  color: #808080;
   margin-right: 6px;
 }
 
@@ -71,7 +71,7 @@
   box-sizing: border-box;
   height: 26px;
   border-radius: 5px;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #262626;
   font-size: 12px;
   padding: 1px 8px;
   outline: none;
@@ -83,7 +83,7 @@
 
 .fortune-link-modify-input:focus,
 .fortune-link-modify-modal .range-selection-input:focus {
-  border-color: #4d90fe;
+  border-color: #b26f01;
 }
 
 .fortune-link-modify-input.error-input,
@@ -121,7 +121,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 7px 11px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #1f1f1f;
   border-radius: 4px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -171,13 +171,13 @@
 }
 
 .fortune-link-modify-modal .button-default {
-  color: rgb(38, 42, 51);
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(235, 235, 235);
+  color: #d9d5cc;
+  background-color: #eeeeee;
+  border: 1px solid #141414;
 }
 
 .fortune-link-modify-modal .button-primary {
-  color: white;
+  color: black;
   background-color: #0188FB;
   margin-left: 14px;
 }

@@ -3,7 +3,7 @@
   max-height: 90%;
   overflow: scroll;
   border-radius: 6px;
-  background: white;
+  background: black;
   box-shadow: rgb(0 0 0 / 10%) 5px 5px 30px;
   box-sizing: border-box;
 }
@@ -37,13 +37,13 @@
 }
 
 .fortune-message-box-button.button-default {
-  color: rgb(38, 42, 51);
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(235, 235, 235);
+  color: #d9d5cc;
+  background-color: #eeeeee;
+  border: 1px solid #141414;
 }
 
 .fortune-message-box-button.button-primary {
-  color: white;
+  color: black;
   background-color: #0188FB;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .fortune-modal-dialog-icon-close {
-  color: #d4d4d4;
+  color: #2b2b2b;
   opacity: 0.3;
 }
 

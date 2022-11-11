@@ -1,14 +1,14 @@
-import React, { useContext, useEffect} from "react";
+import React, { useContext, useEffect } from "react";
 import {
   getFlowdata,
   onCommentBoxMoveStart,
   onCommentBoxResizeStart,
-  setEditingComment, showComments
+  setEditingComment,
+  showComments,
 } from "@fortune-sheet/core";
 import _ from "lodash";
 import ContentEditable from "../SheetOverlay/ContentEditable";
 import WorkbookContext from "../../context";
-
 
 const NotationBoxes: React.FC = () => {
   const { context, setContext, refs } = useContext(WorkbookContext);
@@ -39,18 +39,8 @@ const NotationBoxes: React.FC = () => {
         [context.editingCommentBox, context.hoveredCommentBox]
       ).map((commentBox) => {
         if (!commentBox) return null;
-        const {
-          r,
-          c,
-          rc,
-          left,
-          top,
-          width,
-          height,
-          value,
-          autoFocus,
-          size,
-        } = commentBox;
+        const { r, c, rc, left, top, width, height, value, autoFocus, size } =
+          commentBox;
         const isEditing = context.editingCommentBox?.rc === rc;
         const commentId = `comment-box-${rc}`;
         return (
@@ -74,9 +64,9 @@ const NotationBoxes: React.FC = () => {
               style={{
                 width,
                 height,
-                color: "#000",
+                color: "#eeeeee",
                 padding: 5,
-                border: "1px solid #000",
+                border: "1px solid #eeeeee",
                 backgroundColor: "rgb(255,255,225)",
                 position: "absolute",
                 left,
@@ -113,27 +103,25 @@ const NotationBoxes: React.FC = () => {
               </div>
               {isEditing && (
                 <div className="luckysheet-postil-dialog-resize">
-                  {["lt", "mt", "lm", "rm", "rt", "lb", "mb", "rb"].map(
-                    (v) => (
-                      <div
-                        key={v}
-                        className={`luckysheet-postil-dialog-resize-item luckysheet-postil-dialog-resize-item-${v}`}
-                        data-type={v}
-                        onMouseDown={(e) => {
-                          const { nativeEvent } = e;
-                          onCommentBoxResizeStart(
-                            context,
-                            refs.globalCache,
-                            nativeEvent,
-                            { r, c, rc },
-                            commentId,
-                            v
-                          );
-                          e.stopPropagation();
-                        }}
-                      />
-                    )
-                  )}
+                  {["lt", "mt", "lm", "rm", "rt", "lb", "mb", "rb"].map((v) => (
+                    <div
+                      key={v}
+                      className={`luckysheet-postil-dialog-resize-item luckysheet-postil-dialog-resize-item-${v}`}
+                      data-type={v}
+                      onMouseDown={(e) => {
+                        const { nativeEvent } = e;
+                        onCommentBoxResizeStart(
+                          context,
+                          refs.globalCache,
+                          nativeEvent,
+                          { r, c, rc },
+                          commentId,
+                          v
+                        );
+                        e.stopPropagation();
+                      }}
+                    />
+                  ))}
                 </div>
               )}
               <div
@@ -182,7 +170,7 @@ const NotationBoxes: React.FC = () => {
         );
       })}
     </div>
-  )
+  );
 };
 
 export default NotationBoxes;

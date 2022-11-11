@@ -1225,7 +1225,7 @@ function coverBorderNone(ctx: Context) {
   const borderInfo = {
     rangeType: "range",
     borderType: "border-none",
-    color: "#000000",
+    color: "#eeeeee",
     style: "1",
     range: ctx.luckysheet_select_save,
   };
@@ -1331,11 +1331,11 @@ export function handleBorder(ctx: Context, type: string) {
   // let color = $(`#${subcolormenuid}`).find(".luckysheet-color-selected").val();
   // let style = $("#luckysheetborderSizepreview").attr("itemvalue");
 
-  let color = "#000000";
+  let color = "#eeeeee";
   let style = "1";
 
   if (color == null || color === "") {
-    color = "#000";
+    color = "#eeeeee";
   }
 
   if (style == null || style === "") {

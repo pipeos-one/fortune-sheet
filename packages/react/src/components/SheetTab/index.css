@@ -1,8 +1,8 @@
 .luckysheet-sheet-area {
   width: 100%;
   box-sizing: border-box;
-  background-color: #fafafc;
-  color: #444;
+  background-color: #050503;
+  color: #bbbbbb;
   height: 31px;
   padding: 0 0 0 44px;
   margin: 0;
@@ -22,11 +22,11 @@
 }
 #luckysheet-bottom-pager {
   width: 0;
-  background-color: #fafafc;
+  background-color: #050503;
   z-index: 1;
   flex: 2;
   text-align: right;
-  white-space: nowrap;
+  black-space: nowrap;
 }
 
 .luckysheet-sheet-area > div,
@@ -50,7 +50,7 @@
   padding: 0px 0px;
   margin-left: 0px;
   overflow: hidden;
-  white-space: nowrap;
+  black-space: nowrap;
   position: relative;
   max-width: 100%;
   vertical-align: bottom;
@@ -69,8 +69,8 @@
   padding: 2px 6px;
   height: 29px;
   line-height: 29px;
-  background-color: #fafafc;
-  color: #676464;
+  background-color: #050503;
+  color: #989b9b;
   min-width: 30px;
   top: 0px;
   position: relative;
@@ -80,8 +80,8 @@
   font-size: 13px;
   padding: 2px 19px 0px 5px;
   box-sizing: border-box;
-  border-left: 1px solid #e0e0e0;
-  border-right: 1px solid #e0e0e0;
+  border-left: 1px solid #1f1f1f;
+  border-right: 1px solid #1f1f1f;
   vertical-align: middle;
 }
 
@@ -89,9 +89,9 @@
   margin-right: 1px;
 }
 .luckysheet-sheet-area div.luckysheet-sheets-item:hover {
-  background-color: #efefef;
+  background-color: #101010;
   /* border-color: #a5a5a5; */
-  color: #490500;
+  color: #92c8cc;
 }
 
 .luckysheet-sheet-area div.luckysheet-sheets-item .luckysheet-sheets-item-menu {
@@ -110,7 +110,7 @@
 .luckysheet-sheet-area
   div.luckysheet-sheets-item
   .luckysheet-sheets-item-menu:hover {
-  color: #2a2a2a;
+  color: #d5d5d5;
   cursor: pointer;
 }
 
@@ -121,7 +121,7 @@
 .luckysheet-sheet-area
   div.luckysheet-sheets-item
   .luckysheet-sheets-item-name[contenteditable="true"] {
-  border: 1px solid #d9d9d9;
+  border: 1px solid #262626;
   display: inline-block;
   height: 18px;
   line-height: 18px;
@@ -140,7 +140,7 @@
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
-  border: 1px solid #4d90fe;
+  border: 1px solid #b26f01;
   outline: none;
 }
 
@@ -148,10 +148,10 @@
   /* padding: 2px 8px; */
   height: 29px;
   line-height: 29px;
-  background-color: #efefef;
+  background-color: #101010;
   /* border-color: #aaa; */
-  border-top-color: #fff;
-  color: #222;
+  border-top-color: #1a1a1b;
+  color: #dddddd;
   /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); */
   cursor: default;
   /* top: -2px; */
@@ -160,9 +160,9 @@
 }
 
 .luckysheet-sheet-area div.luckysheet-sheets-item-active:hover {
-  background-color: #ececec;
+  background-color: #131313;
   /* border-color: #aaa; */
-  color: #222;
+  color: #dddddd;
 }
 
 .fortune-sheettab-button {
@@ -188,7 +188,7 @@
 }
 
 .fortune-sheettab-scroll:hover {
-  background-color: #e0e0e0;
+  background-color: #1f1f1f;
 }
 
 .fortune-sheettab-placeholder {

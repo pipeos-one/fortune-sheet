@@ -109,7 +109,7 @@ const FilterOptions: React.FC<{ getContainer: () => HTMLDivElement }> = ({
               <div className="caret down" />
             ) : (
               <SVGIcon
-                name="filter-fill-white"
+                name="filter-fill-black"
                 style={{ width: 15, height: 15 }}
               />
             )}

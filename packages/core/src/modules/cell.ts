@@ -30,7 +30,7 @@ export function normalizedCellAttr(cell: Cell, attr: keyof Cell): any {
     value ||= "0";
   } else if (["fc", "bg", "bc"].includes(attr)) {
     if (["fc", "bc"].includes(attr)) {
-      value ||= "#000000";
+      value ||= "#eeeeee";
     }
     if (value?.indexOf("rgba") > -1) {
       value = rgbToHex(value);
@@ -1251,7 +1251,7 @@ export function getFontStyleByCell(
     }
 
     if (
-      (key === "fc" && value !== "#000000") ||
+      (key === "fc" && value !== "#eeeeee") ||
       (checksAF?.length ?? 0) > 0 ||
       checksCF?.textColor
     ) {

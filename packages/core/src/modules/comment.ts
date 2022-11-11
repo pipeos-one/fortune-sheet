@@ -88,7 +88,7 @@ export function drawArrow(
   headlen = headlen || 6;
   // width = width || 1;
   const arrowWidth = 1;
-  color = color || "#000";
+  color = color || "#eeeeee";
 
   // 计算各角度和对应的P2,P3坐标
   const angle = (Math.atan2(fromY - toY, fromX - toX) * 180) / Math.PI;
@@ -768,7 +768,7 @@ const luckysheetPostil = {
     theta = getObjType(theta) == "undefined" ? 30 : theta;
     headlen = getObjType(headlen) == "undefined" ? 6 : headlen;
     width = getObjType(width) == "undefined" ? 1 : width;
-    color = getObjType(color) == "undefined" ? "#000" : color;
+    color = getObjType(color) == "undefined" ? "#eeeeee" : color;
 
     // 计算各角度和对应的P2,P3坐标
     const angle = (Math.atan2(fromY - toY, fromX - toX) * 180) / Math.PI;
@@ -884,7 +884,7 @@ const luckysheetPostil = {
       const html =
         `<div id="luckysheet-postil-show_${r}_${c}" class="luckysheet-postil-show">` +
         `<canvas class="arrowCanvas" width="${size[2]}" height="${size[3]}" style="position:absolute;left:${size[0]}px;top:${size[1]}px;z-index:100;pointer-events:none;"></canvas>` +
-        `<div class="luckysheet-postil-show-main" style="width:${width}px;height:${height}px;color:#000;padding:5px;border:1px solid #000;background-color:rgb(255,255,225);position:absolute;left:${left}px;top:${top}px;box-sizing:border-box;z-index:100;">` +
+        `<div class="luckysheet-postil-show-main" style="width:${width}px;height:${height}px;color:#eeeeee;padding:5px;border:1px solid #eeeeee;background-color:rgb(255,255,225);position:absolute;left:${left}px;top:${top}px;box-sizing:border-box;z-index:100;">` +
         `<div class="luckysheet-postil-dialog-move">` +
         `<div class="luckysheet-postil-dialog-move-item luckysheet-postil-dialog-move-item-t" data-type="t"></div>` +
         `<div class="luckysheet-postil-dialog-move-item luckysheet-postil-dialog-move-item-r" data-type="r"></div>` +

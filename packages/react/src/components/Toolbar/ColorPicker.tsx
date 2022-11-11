@@ -1,12 +1,21 @@
 import React from "react";
 
 const palette = [
-  ["#000", "#444", "#666", "#999", "#ccc", "#eee", "#f3f3f3", "#fff"],
+  [
+    "#eeeeee",
+    "#bbbbbb",
+    "#999999",
+    "#999",
+    "#cccccc",
+    "#eee",
+    "#f3f3f3",
+    "#1a1a1b",
+  ],
   ["#f00", "#f90", "#ff0", "#0f0", "#0ff", "#00f", "#90f", "#f0f"],
   [
     "#f4cccc",
     "#fce5cd",
-    "#fff2cc",
+    "#1a1a1b2cc",
     "#d9ead3",
     "#d0e0e3",
     "#cfe2f3",

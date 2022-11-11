@@ -66,7 +66,7 @@ export function convertCssToStyleList(cssText: string) {
 
   const styleList: CellStyle = {
     // ff: locale_fontarray[0], // font family
-    fc: "#000000", // font color
+    fc: "#eeeeee", // font color
     fs: 10, // font size
     cl: 0, // strike
     un: 0, // underline
@@ -266,7 +266,7 @@ function getCssText(cssText: string, attr: keyof Cell, value: any) {
   if (attr === "un") {
     let fontColor = getClassWithcss(cssText, "color");
     if (fontColor === "") {
-      fontColor = "#000000";
+      fontColor = "#eeeeee";
     }
     let fs = getClassWithcss(cssText, "font-size");
     if (fs === "") {

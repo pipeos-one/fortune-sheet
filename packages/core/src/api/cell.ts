@@ -73,7 +73,7 @@ export function setCellValue(
   // luckysheetformula.updatecell(row, column, value);
   const formatList = {
     // ct:1, //celltype,Cell value format: text, time, etc.
-    bg: 1, // background,#fff000
+    bg: 1, // background,#1a1a1b000
     ff: 1, // fontfamily,
     fc: 1, // fontcolor
     bl: 1, // Bold
@@ -226,7 +226,7 @@ export function setCellFormat(
     const borderInfo = {
       rangeType: "range",
       borderType: "border-all",
-      color: "#000",
+      color: "#eeeeee",
       style: "1",
       range: [
         {

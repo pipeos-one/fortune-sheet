@@ -10039,8 +10039,8 @@ export default {
         // normalRangeColor
         {
           name: "辅助线颜色",
-          example: "#000",
-          detail: "辅助线的颜色设置，同线条颜色配置，默认#000",
+          example: "#eeeeee",
+          detail: "辅助线的颜色设置，同线条颜色配置，默认#eeeeee",
           require: "o",
           repeat: "n",
           type: "rangeall",
@@ -10132,8 +10132,8 @@ export default {
         // normalRangeColor
         {
           name: "辅助线颜色",
-          example: "#000",
-          detail: "辅助线的颜色设置，同线条颜色配置，默认#000",
+          example: "#eeeeee",
+          detail: "辅助线的颜色设置，同线条颜色配置，默认#eeeeee",
           require: "o",
           repeat: "n",
           type: "rangeall",
@@ -10228,7 +10228,7 @@ export default {
           name: "色板",
           example: "#97b552",
           detail:
-            "调色板可以单独设置每个柱条的颜色，可设置多个，支持两种格式：1颜色例如#000，代表第一个柱的颜色是黑色；2数值范围:颜色，例如-2:#000表示数值为-2的柱为黑色，0:5:#000表示数值0-5的柱为黑色，默认为空",
+            "调色板可以单独设置每个柱条的颜色，可设置多个，支持两种格式：1颜色例如#eeeeee，代表第一个柱的颜色是黑色；2数值范围:颜色，例如-2:#eeeeee表示数值为-2的柱为黑色，0:5:#eeeeee表示数值0-5的柱为黑色，默认为空",
           require: "o",
           repeat: "y",
           type: "rangeall",
@@ -10353,7 +10353,7 @@ export default {
           name: "色板",
           example: "#97b552",
           detail:
-            "调色板可以单独设置每个柱条的颜色，可设置多个，支持两种格式：1颜色例如#000，代表第一个柱的颜色是黑色；2数值范围:颜色，例如-2:#000表示数值为-2的柱为黑色，0:5:#000表示数值0-5的柱为黑色，默认为空",
+            "调色板可以单独设置每个柱条的颜色，可设置多个，支持两种格式：1颜色例如#eeeeee，代表第一个柱的颜色是黑色；2数值范围:颜色，例如-2:#eeeeee表示数值为-2的柱为黑色，0:5:#eeeeee表示数值0-5的柱为黑色，默认为空",
           require: "o",
           repeat: "y",
           type: "rangeall",
@@ -10525,7 +10525,7 @@ export default {
           name: "色板",
           example: "#97b552",
           detail:
-            "调色板可以单独设置每个柱条的颜色，可设置多个，支持两种格式：1颜色例如#000，代表第一个柱的颜色是黑色；2数值范围:颜色，例如-2:#000表示数值为-2的柱为黑色，0-5:#000表示数值0-5的柱为黑色，默认为空",
+            "调色板可以单独设置每个柱条的颜色，可设置多个，支持两种格式：1颜色例如#eeeeee，代表第一个柱的颜色是黑色；2数值范围:颜色，例如-2:#eeeeee表示数值为-2的柱为黑色，0-5:#eeeeee表示数值0-5的柱为黑色，默认为空",
           require: "o",
           repeat: "y",
           type: "rangeall",
@@ -10570,8 +10570,8 @@ export default {
         // borderColor
         {
           name: "边框颜色",
-          example: "#000",
-          detail: "饼图边框颜色，默认为#000",
+          example: "#eeeeee",
+          detail: "饼图边框颜色，默认为#eeeeee",
           require: "o",
           repeat: "n",
           type: "rangeall",
@@ -12020,7 +12020,7 @@ export default {
       "Copy and paste in the Sheet: Ctrl + C to copy, Ctrl + V to paste, Ctrl + X to cut",
     pasteMustKeybordAlertHTMLTitle: "Copy and paste in the Sheet",
     pasteMustKeybordAlertHTML:
-      "<span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#666;'>Ctrl + C</span>&nbsp;&nbsp;to copy<br/><span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#666;'>Ctrl + V</span>&nbsp;&nbsp;to paste<br/><span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#666;'>Ctrl + X</span>&nbsp;&nbsp;to cut",
+      "<span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#999999;'>Ctrl + C</span>&nbsp;&nbsp;to copy<br/><span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#999999;'>Ctrl + V</span>&nbsp;&nbsp;to paste<br/><span style='line-height: 1.0;font-size:36px;font-weight: bold;color:#999999;'>Ctrl + X</span>&nbsp;&nbsp;to cut",
   },
   pivotTable: {
     title: "数据透视表",

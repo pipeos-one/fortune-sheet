@@ -445,7 +445,7 @@ export function getCellTextInfo(
         if (newValue === "" && x !== splitArr.length - 1) {
           inlineStringArr.push({
             fontset: scfontset,
-            fc: !fc ? "#000" : fc,
+            fc: !fc ? "#eeeeee" : fc,
             cl: !cl ? 0 : cl,
             un: !un ? 0 : un,
             wrap: true,
@@ -459,7 +459,7 @@ export function getCellTextInfo(
 
             inlineStringArr.push({
               fontset: scfontset,
-              fc: !fc ? "#000" : fc,
+              fc: !fc ? "#eeeeee" : fc,
               cl: !cl ? 0 : cl,
               un: !un ? 0 : un,
               v: nv,
@@ -471,7 +471,7 @@ export function getCellTextInfo(
           if (x !== splitArr.length - 1) {
             inlineStringArr.push({
               fontset: scfontset,
-              fc: !fc ? "#000" : fc,
+              fc: !fc ? "#eeeeee" : fc,
               cl: !cl ? 0 : cl,
               un: !un ? 0 : un,
               wrap: true,

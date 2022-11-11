@@ -523,7 +523,7 @@ export function getFilterColumnColors(
     let bg = normalizedAttr(flowdata, r, col, "bg");
 
     if (bg == null) {
-      bg = "#ffffff";
+      bg = "#1a1a1b";
     }
 
     // const checksAF = alternateformat.checksAF(r, col, af_compute);

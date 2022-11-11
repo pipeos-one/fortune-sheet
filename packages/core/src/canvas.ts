@@ -13,9 +13,9 @@ import { indexToColumnChar } from "./utils";
 import { getBorderInfoComputeRange } from "./modules/border";
 
 export const defaultStyle = {
-  fillStyle: "#000000",
+  fillStyle: "#eeeeee",
   textBaseline: "middle",
-  strokeStyle: "#dfdfdf",
+  strokeStyle: "#202020",
   rowFillStyle: "#5e5e5e",
   textAlign: "center",
 };
@@ -212,14 +212,14 @@ export class Canvas {
       }
 
       if (this.sheetCtx.config?.rowhidden?.[r] == null) {
-        renderCtx.fillStyle = "#ffffff";
+        renderCtx.fillStyle = "#1a1a1b";
         renderCtx.fillRect(
           0,
           start_r + offsetTop + firstOffset,
           this.sheetCtx.rowHeaderWidth - 1,
           end_r - start_r + 1 + lastOffset - firstOffset
         );
-        renderCtx.fillStyle = "#000000";
+        renderCtx.fillStyle = "#eeeeee";
 
         // 行标题栏序列号
         renderCtx.save(); // save scale before draw text
@@ -403,14 +403,14 @@ export class Canvas {
       }
 
       if (this.sheetCtx.config?.colhidden?.[c] == null) {
-        renderCtx.fillStyle = "#ffffff";
+        renderCtx.fillStyle = "#1a1a1b";
         renderCtx.fillRect(
           start_c + offsetLeft - 1,
           0,
           end_c - start_c,
           this.sheetCtx.columnHeaderHeight - 1
         );
-        renderCtx.fillStyle = "#000000";
+        renderCtx.fillStyle = "#eeeeee";
 
         // 列标题栏序列号
         renderCtx.save(); // save scale before draw text
@@ -651,7 +651,7 @@ export class Canvas {
     const colEndX = this.sheetCtx.visibledatacolumn[colEnd];
 
     // 表格canvas 初始化处理
-    renderCtx.fillStyle = "#ffffff";
+    renderCtx.fillStyle = "#1a1a1b";
     renderCtx.fillRect(
       offsetLeft - 1,
       offsetTop - 1,
@@ -1069,7 +1069,7 @@ export class Canvas {
               endY - 2 + bodrder05 + offsetTop
             );
             renderCtx.lineWidth = 1;
-            renderCtx.strokeStyle = "#000000";
+            renderCtx.strokeStyle = "#eeeeee";
             renderCtx.closePath();
             renderCtx.stroke();
           }
@@ -1085,7 +1085,7 @@ export class Canvas {
               endY - 2 + bodrder05 + offsetTop
             );
             renderCtx.lineWidth = 1;
-            renderCtx.strokeStyle = "#000000";
+            renderCtx.strokeStyle = "#eeeeee";
             renderCtx.closePath();
             renderCtx.stroke();
           }
@@ -1117,7 +1117,7 @@ export class Canvas {
               endY - 2 + bodrder05 + offsetTop
             );
             renderCtx.lineWidth = 1;
-            renderCtx.strokeStyle = "#000000";
+            renderCtx.strokeStyle = "#eeeeee";
             renderCtx.closePath();
             renderCtx.stroke();
 
@@ -1131,7 +1131,7 @@ export class Canvas {
               endY - 2 + bodrder05 + offsetTop
             );
             renderCtx.lineWidth = 1;
-            renderCtx.strokeStyle = "#000000";
+            renderCtx.strokeStyle = "#eeeeee";
             renderCtx.closePath();
             renderCtx.stroke();
           }
@@ -1614,7 +1614,7 @@ export class Canvas {
     // }
 
     if (!fillStyle) {
-      renderCtx.fillStyle = "#FFFFFF";
+      renderCtx.fillStyle = "#1a1a1b";
     } else {
       renderCtx.fillStyle = fillStyle;
     }
@@ -1652,7 +1652,7 @@ export class Canvas {
     if (`${r}_${c}` in dynamicArrayCompute) {
       const value = dynamicArrayCompute[`${r}_${c}`].v;
 
-      renderCtx.fillStyle = "#000000";
+      renderCtx.fillStyle = "#eeeeee";
       // 文本宽度和高度
       const fontset = defaultFont(this.sheetCtx.defaultFontSize);
       renderCtx.font = fontset;
@@ -1823,7 +1823,7 @@ export class Canvas {
     //   fillStyle = checksCF.cellColor;
     // }
     if (!fillStyle) {
-      renderCtx.fillStyle = "#FFFFFF";
+      renderCtx.fillStyle = "#1a1a1b";
     } else {
       renderCtx.fillStyle = fillStyle;
     }
@@ -2003,7 +2003,7 @@ export class Canvas {
 
       // 复选框
       renderCtx.lineWidth = 1;
-      renderCtx.strokeStyle = "#000";
+      renderCtx.strokeStyle = "#eeeeee";
       renderCtx.strokeRect(horizonAlignPos, verticalAlignPos_checkbox, 10, 10);
 
       if (dataVerification[`${r}_${c}`].checked) {
@@ -2051,7 +2051,7 @@ export class Canvas {
               x + w * minusLen,
               y
             );
-            my_gradient.addColorStop(0, "#ffffff");
+            my_gradient.addColorStop(0, "#1a1a1b");
             my_gradient.addColorStop(1, "#ff0000");
 
             renderCtx.fillStyle = my_gradient;
@@ -2642,7 +2642,7 @@ export class Canvas {
       this.sheetCtx.devicePixelRatio,
       this.sheetCtx.devicePixelRatio
     );
-    renderCtx.strokeStyle = "#ccc";
+    renderCtx.strokeStyle = "#808080";
     renderCtx.lineWidth = 2;
 
     if (horizontalTop) {

@@ -2,9 +2,9 @@
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  color: #535353;
+  color: #808080;
   font-size: 12px;
-  background: #fff;
+  background: #1a1a1b;
   z-index: 1003;
   width: 300px;
 }
@@ -20,9 +20,9 @@
 
 .luckysheet-formula-help-title {
   display: block;
-  border-top: 1px solid #ebebeb;
-  border-bottom: 1px solid #ebebeb;
-  background: #f5f5f5;
+  border-top: 1px solid #141414;
+  border-bottom: 1px solid #141414;
+  background: #0a0a0a;
   padding: 2px 10px;
   font-size: 14px;
 }
@@ -35,12 +35,12 @@
 .luckysheet-arguments-help-section {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #222;
+  color: #dddddd;
 }
 
 .luckysheet-arguments-help-section-title {
   padding: 1px 10px;
-  color: #666;
+  color: #999999;
 }
 
 .luckysheet-arguments-help-parameter-content {
@@ -55,7 +55,7 @@
 }
 
 .luckysheet-arguments-help-parameter-active {
-  background-color: #fff9b2;
+  background-color: #1a1a1b9b2;
 }
 
 .luckysheet-formula-help-collapse {
@@ -78,5 +78,5 @@
 
 .luckysheet-formula-help-close:hover,
 .luckysheet-formula-help-collapse:hover {
-  color: #555;
+  color: #aaaaaa;
 }
