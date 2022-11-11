@@ -3,12 +3,15 @@
   flex-direction: row;
   height: 28px;
   border-bottom: 1px solid #2b2b2b;
+  color: #808080;
+  background-color: #1a1a1a;
 }
 
 .fortune-fx-icon {
   display: flex;
   align-items: center;
   margin: 0 12px;
+  background-color: #1a1a1a;
 }
 
 .fortune-name-box-container {
@@ -17,6 +20,7 @@
   font-size: 14px;
   display: flex;
   align-items: center;
+  background-color: black;
 }
 
 .fortune-name-box {
@@ -25,6 +29,7 @@
   margin: 0;
   outline: none;
   cursor: text;
+  background-color: black;
   /* -webkit-user-modify: read-write-plaintext-only; */
   black-space: nowrap;
   overflow: hidden;

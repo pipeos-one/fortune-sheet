@@ -98,6 +98,7 @@
 }
 
 .fortune-left-top {
+  background-color: #1a1a1b;
   width: 44.5px;
   height: 18.5px;
   border: solid 0 #202020;
@@ -341,7 +342,7 @@
   -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 0 2px 5px rgb(0 0 0 / 40%);
   word-wrap: break-word;
-  background-color: #eeeeee;
+  background-color: #1a1a1b;
   font-size: 13px;
   right: auto;
   overflow-y: auto;
@@ -354,6 +355,8 @@
   outline: none;
   cursor: text;
   black-space: pre-wrap;
+  background-color: #1a1a1b;
+  border-color: #1a1a1b;
 }
 
 .luckysheet-formula-text-color {

@@ -261,7 +261,7 @@ const FxEditor: React.FC = () => {
     <div className="fortune-fx-editor">
       <NameBox />
       <div className="fortune-fx-icon">
-        <SVGIcon name="fx" width={18} height={18} />
+        <SVGIcon name="fx" width={18} height={18} style={{ fill: "#808080" }} />
       </div>
       <div ref={inputContainerRef} className="fortune-fx-input-container">
         <ContentEditable
