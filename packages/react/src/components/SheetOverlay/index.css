@@ -11,6 +11,7 @@
   overflow: hidden;
   outline-style: none;
   cursor: default;
+  color: #808080;
 }
 
 .fortune-row-body {
@@ -399,7 +400,7 @@
   /*background-color: #1a1a1b;*/
   text-align: left;
   font-size: 11pt;
-  color: #eeeeee;
+  color: #808080;
   text-decoration: none;
 }
 

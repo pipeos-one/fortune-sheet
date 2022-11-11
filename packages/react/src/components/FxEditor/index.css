@@ -49,6 +49,7 @@
   align-items: center;
   position: relative;
   border-left: 1px solid #1a1a1a;
+  color: #808080;
 }
 
 .fortune-fx-input {
@@ -70,4 +71,5 @@
   background-color: black;
   padding-top: 7px;
   box-sizing: border-box;
+  color: #808080;
 }
